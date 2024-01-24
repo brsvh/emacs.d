@@ -2,15 +2,11 @@ name: Emacs/Twist - CI
 
 on:
   push:
-    path:
+    paths:
       - 'flake.*'
-    path-ignore:
-      - '.github/**'
   pull_request:
-    path:
+    paths:
       - 'flake.*'
-    path-ignore:
-      - '.github/**'
   workflow_call:
   workflow_dispatch:
 
